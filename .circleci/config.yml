@@ -14,4 +14,3 @@ jobs:
       - checkout
       - run: cargo --version
       - run: cargo test
-    parallelism: 4
