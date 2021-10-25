@@ -13,4 +13,4 @@ jobs:
     steps:
       - checkout
       - run: cargo --version
-      - run: cargo check
+      - run: cargo test
